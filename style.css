@@ -1,0 +1,114 @@
+/* style.css */
+body {
+  font-family: 'Chivo';
+  color: #404042;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+  color: #EBF8FF
+}
+
+h2 {
+  font-family: 'Yeseva One', cursive;
+  color: black
+}
+
+h3 {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+a {
+  color: #6DD0FF;
+  font-weight: normal;
+  text-decoration: none;
+  transition: .1s;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  }
+
+.button-blue {
+  background-color: #7ED5FF;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .1s;
+}
+
+.button-blue:hover {
+  background-color: #19C0FF;
+  color: white;
+}
+
+a:hover {
+  color: #ADE4FF ;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1px;
+
+}
+
+.card-white h3 {
+  margin-bottom: 0px;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+.container {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.cards {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+  grid-gap: 1px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
